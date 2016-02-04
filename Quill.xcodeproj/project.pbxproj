@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F93FD931C6300FB00119AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FD921C6300FB00119AA4 /* AppDelegate.swift */; };
+		3F93FD951C6300FB00119AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FD941C6300FB00119AA4 /* ViewController.swift */; };
+		3F93FD971C6300FB00119AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F93FD961C6300FB00119AA4 /* Assets.xcassets */; };
+		3F93FD9A1C6300FB00119AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F93FD981C6300FB00119AA4 /* Main.storyboard */; };
+		3F93FDA51C6300FB00119AA4 /* QuillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDA41C6300FB00119AA4 /* QuillTests.swift */; };
+		3F93FDB01C6300FB00119AA4 /* QuillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F93FDA11C6300FB00119AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F93FD871C6300FB00119AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F93FD8E1C6300FB00119AA4;
+			remoteInfo = Quill;
+		};
+		3F93FDAC1C6300FB00119AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F93FD871C6300FB00119AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F93FD8E1C6300FB00119AA4;
+			remoteInfo = Quill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F93FD8F1C6300FB00119AA4 /* Quill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F93FD921C6300FB00119AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F93FD941C6300FB00119AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F93FD961C6300FB00119AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F93FD991C6300FB00119AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F93FD9B1C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F93FDA01C6300FB00119AA4 /* QuillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F93FDA41C6300FB00119AA4 /* QuillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuillTests.swift; sourceTree = "<group>"; };
+		3F93FDA61C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F93FDAB1C6300FB00119AA4 /* QuillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuillUITests.swift; sourceTree = "<group>"; };
+		3F93FDB11C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F93FD8C1C6300FB00119AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FD9D1C6300FB00119AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FDA81C6300FB00119AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F93FD861C6300FB00119AA4 = {
+			isa = PBXGroup;
+			children = (
+				3F93FD911C6300FB00119AA4 /* Quill */,
+				3F93FDA31C6300FB00119AA4 /* QuillTests */,
+				3F93FDAE1C6300FB00119AA4 /* QuillUITests */,
+				3F93FD901C6300FB00119AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F93FD901C6300FB00119AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F93FD8F1C6300FB00119AA4 /* Quill.app */,
+				3F93FDA01C6300FB00119AA4 /* QuillTests.xctest */,
+				3F93FDAB1C6300FB00119AA4 /* QuillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F93FD911C6300FB00119AA4 /* Quill */ = {
+			isa = PBXGroup;
+			children = (
+				3F93FD921C6300FB00119AA4 /* AppDelegate.swift */,
+				3F93FD941C6300FB00119AA4 /* ViewController.swift */,
+				3F93FD961C6300FB00119AA4 /* Assets.xcassets */,
+				3F93FD981C6300FB00119AA4 /* Main.storyboard */,
+				3F93FD9B1C6300FB00119AA4 /* Info.plist */,
+			);
+			path = Quill;
+			sourceTree = "<group>";
+		};
+		3F93FDA31C6300FB00119AA4 /* QuillTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F93FDA41C6300FB00119AA4 /* QuillTests.swift */,
+				3F93FDA61C6300FB00119AA4 /* Info.plist */,
+			);
+			path = QuillTests;
+			sourceTree = "<group>";
+		};
+		3F93FDAE1C6300FB00119AA4 /* QuillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */,
+				3F93FDB11C6300FB00119AA4 /* Info.plist */,
+			);
+			path = QuillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F93FD8E1C6300FB00119AA4 /* Quill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F93FDB41C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "Quill" */;
+			buildPhases = (
+				3F93FD8B1C6300FB00119AA4 /* Sources */,
+				3F93FD8C1C6300FB00119AA4 /* Frameworks */,
+				3F93FD8D1C6300FB00119AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quill;
+			productName = Quill;
+			productReference = 3F93FD8F1C6300FB00119AA4 /* Quill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F93FD9F1C6300FB00119AA4 /* QuillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F93FDB71C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillTests" */;
+			buildPhases = (
+				3F93FD9C1C6300FB00119AA4 /* Sources */,
+				3F93FD9D1C6300FB00119AA4 /* Frameworks */,
+				3F93FD9E1C6300FB00119AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F93FDA21C6300FB00119AA4 /* PBXTargetDependency */,
+			);
+			name = QuillTests;
+			productName = QuillTests;
+			productReference = 3F93FDA01C6300FB00119AA4 /* QuillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F93FDAA1C6300FB00119AA4 /* QuillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F93FDBA1C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillUITests" */;
+			buildPhases = (
+				3F93FDA71C6300FB00119AA4 /* Sources */,
+				3F93FDA81C6300FB00119AA4 /* Frameworks */,
+				3F93FDA91C6300FB00119AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F93FDAD1C6300FB00119AA4 /* PBXTargetDependency */,
+			);
+			name = QuillUITests;
+			productName = QuillUITests;
+			productReference = 3F93FDAB1C6300FB00119AA4 /* QuillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F93FD871C6300FB00119AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeremy W. Sherman";
+				TargetAttributes = {
+					3F93FD8E1C6300FB00119AA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3F93FD9F1C6300FB00119AA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3F93FD8E1C6300FB00119AA4;
+					};
+					3F93FDAA1C6300FB00119AA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3F93FD8E1C6300FB00119AA4;
+					};
+				};
+			};
+			buildConfigurationList = 3F93FD8A1C6300FB00119AA4 /* Build configuration list for PBXProject "Quill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F93FD861C6300FB00119AA4;
+			productRefGroup = 3F93FD901C6300FB00119AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F93FD8E1C6300FB00119AA4 /* Quill */,
+				3F93FD9F1C6300FB00119AA4 /* QuillTests */,
+				3F93FDAA1C6300FB00119AA4 /* QuillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F93FD8D1C6300FB00119AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93FD971C6300FB00119AA4 /* Assets.xcassets in Resources */,
+				3F93FD9A1C6300FB00119AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FD9E1C6300FB00119AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FDA91C6300FB00119AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F93FD8B1C6300FB00119AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93FD951C6300FB00119AA4 /* ViewController.swift in Sources */,
+				3F93FD931C6300FB00119AA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FD9C1C6300FB00119AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93FDA51C6300FB00119AA4 /* QuillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F93FDA71C6300FB00119AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93FDB01C6300FB00119AA4 /* QuillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F93FDA21C6300FB00119AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F93FD8E1C6300FB00119AA4 /* Quill */;
+			targetProxy = 3F93FDA11C6300FB00119AA4 /* PBXContainerItemProxy */;
+		};
+		3F93FDAD1C6300FB00119AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F93FD8E1C6300FB00119AA4 /* Quill */;
+			targetProxy = 3F93FDAC1C6300FB00119AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F93FD981C6300FB00119AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F93FD991C6300FB00119AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F93FDB21C6300FB00119AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F93FDB31C6300FB00119AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F93FDB51C6300FB00119AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Quill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.Quill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F93FDB61C6300FB00119AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Quill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.Quill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F93FDB81C6300FB00119AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.QuillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quill.app/Contents/MacOS/Quill";
+			};
+			name = Debug;
+		};
+		3F93FDB91C6300FB00119AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.QuillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quill.app/Contents/MacOS/Quill";
+			};
+			name = Release;
+		};
+		3F93FDBB1C6300FB00119AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.QuillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F93FDBC1C6300FB00119AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremywsherman.QuillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F93FD8A1C6300FB00119AA4 /* Build configuration list for PBXProject "Quill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F93FDB21C6300FB00119AA4 /* Debug */,
+				3F93FDB31C6300FB00119AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F93FDB41C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "Quill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F93FDB51C6300FB00119AA4 /* Debug */,
+				3F93FDB61C6300FB00119AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F93FDB71C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F93FDB81C6300FB00119AA4 /* Debug */,
+				3F93FDB91C6300FB00119AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F93FDBA1C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F93FDBB1C6300FB00119AA4 /* Debug */,
+				3F93FDBC1C6300FB00119AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F93FD871C6300FB00119AA4 /* Project object */;
+}
