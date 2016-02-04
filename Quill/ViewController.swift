@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  Quill
-//
-//  Created by Jeremy on 2016-02-03.
-//  Copyright © 2016 Jeremy W. Sherman. All rights reserved.
-//
+//  Copyright © 2016 Jeremy W. Sherman, distributed under GPLv3+ WITHOUT ANY WARRANTY.
 
 import Cocoa
 
