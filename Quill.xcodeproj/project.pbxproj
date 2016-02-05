@@ -263,7 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+			shellScript = "echo \"info: Lint Sources is beginning\"\nif which swiftlint >/dev/null; then\n    echo \"info: found swiftlint at: $(which swiftlint)\"\n    if [[ $TRAVIS -eq true ]]; then\n        echo \"info: Travis might fail to run swiftlint: see https://github.com/realm/SwiftLint/issues/25#issuecomment-180175740\"\n        swiftlint || :\n    else\n        swiftlint\n    fi\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi\necho \"info: Lint Sources is ending\"";
 		};
 		3F93FDBE1C6439AD00119AA4 /* Lint Sources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -277,7 +277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+			shellScript = "echo \"info: Lint Sources is beginning\"\nif which swiftlint >/dev/null; then\n    echo \"info: found swiftlint at: $(which swiftlint)\"\n    if [[ $TRAVIS -eq true ]]; then\n        echo \"info: Travis might fail to run swiftlint: see https://github.com/realm/SwiftLint/issues/25#issuecomment-180175740\"\n        swiftlint || :\n    else\n        swiftlint\n    fi\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi\necho \"info: Lint Sources is ending\"";
 			showEnvVarsInLog = 0;
 		};
 		3F93FDBF1C6439BC00119AA4 /* Lint Sources */ = {
@@ -292,7 +292,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+			shellScript = "echo \"info: Lint Sources is beginning\"\nif which swiftlint >/dev/null; then\n    echo \"info: found swiftlint at: $(which swiftlint)\"\n    if [[ $TRAVIS -eq true ]]; then\n        echo \"info: Travis might fail to run swiftlint: see https://github.com/realm/SwiftLint/issues/25#issuecomment-180175740\"\n        swiftlint || :\n    else\n        swiftlint\n    fi\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi\necho \"info: Lint Sources is ending\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
