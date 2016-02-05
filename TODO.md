@@ -1,11 +1,13 @@
 # TODO
+<!-- vi: set ts=4 sw=4: -->
 
 ## Project Infrastructure
 Changes are checked by CI, and basic style standards are checked by linting.
 Releases can be delivered automatically to GitHub.
 
 - [X] Set up linter (and autoformatter if you can find one)
-- [ ] Ensure line coverage metrics are collected during testing
+- [X] Ensure line coverage metrics are collected during testing
+    - Coverage now defaults to being turned on. Nifty!
 - [ ] Hook up TravisCI.org for continuous integration
 - [ ] Automate publishing a build to GitHub Releases
 - [ ] Publish an empty "Hello World" build
