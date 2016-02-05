@@ -4,7 +4,7 @@
 Changes are checked by CI, and basic style standards are checked by linting.
 Releases can be delivered automatically to GitHub.
 
-- [ ] Set up linter (and autoformatter if you can find one)
+- [X] Set up linter (and autoformatter if you can find one)
 - [ ] Ensure line coverage metrics are collected during testing
 - [ ] Hook up TravisCI.org for continuous integration
 - [ ] Automate publishing a build to GitHub Releases
