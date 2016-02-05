@@ -129,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F93FDB41C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "Quill" */;
 			buildPhases = (
+				3F93FDBD1C64395200119AA4 /* Lint Sources */,
 				3F93FD8B1C6300FB00119AA4 /* Sources */,
 				3F93FD8C1C6300FB00119AA4 /* Frameworks */,
 				3F93FD8D1C6300FB00119AA4 /* Resources */,
@@ -147,6 +148,7 @@
 			buildConfigurationList = 3F93FDB71C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillTests" */;
 			buildPhases = (
 				3F93FD9C1C6300FB00119AA4 /* Sources */,
+				3F93FDBE1C6439AD00119AA4 /* Lint Sources */,
 				3F93FD9D1C6300FB00119AA4 /* Frameworks */,
 				3F93FD9E1C6300FB00119AA4 /* Resources */,
 			);
@@ -165,6 +167,7 @@
 			buildConfigurationList = 3F93FDBA1C6300FB00119AA4 /* Build configuration list for PBXNativeTarget "QuillUITests" */;
 			buildPhases = (
 				3F93FDA71C6300FB00119AA4 /* Sources */,
+				3F93FDBF1C6439BC00119AA4 /* Lint Sources */,
 				3F93FDA81C6300FB00119AA4 /* Frameworks */,
 				3F93FDA91C6300FB00119AA4 /* Resources */,
 			);
@@ -246,6 +249,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F93FDBD1C64395200119AA4 /* Lint Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Sources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+		};
+		3F93FDBE1C6439AD00119AA4 /* Lint Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Sources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+			showEnvVarsInLog = 0;
+		};
+		3F93FDBF1C6439BC00119AA4 /* Lint Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Sources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: swiftlint not found: please run $SRCROOT/bootstrap.sh to install dependencies\"\n    exit 1\nfi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F93FD8B1C6300FB00119AA4 /* Sources */ = {
