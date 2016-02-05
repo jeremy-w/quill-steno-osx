@@ -52,3 +52,31 @@ The status item indicates whether translation is on or off at a glance.
 ## Growing the UI
 We work towards parity with the capabilities exposed by the stock
 Plover app, though perhaps not presented in the same way.
+
+- Problem: Having to use the mouse to enable/disable translation is
+  too much of an interruption.
+    - Solution: Add support for `{PLOVER:TOGGLE}`.
+
+- Problem: Adding a new translation by manually hacking the dictionary is
+  too much of an interruption.
+    - Solution: Add support for the `{PLOVER:ADD_TRANSLATION}` control
+      translation.
+
+- Problem: Looking up translations for a word currently requires
+  manual shell scripting.
+    - Solution: Add support for the `{PLOVER:LOOKUP}` control translation.
+        - TODO: Verify that's how it's spelt; it's not documented in
+          Learn Plover just yet.
+
+- Problem: Learning steno requires me to divert from typing to look up words.
+    - Solution: Integrate Stenotray-like functionality.
+
+- Problem: Learning better ways to stroke words and phrases is important
+  for speedbuilding, but currently requires a manual lookup.
+    - Possible solutions:
+        - An Alternatives HUD window?
+        - An Alternatives bubble that can be requested on demand?
+        - A "lookup last N words" command?
+            - Could be done like Emacs count-modifiers,
+              C-u 3 M-x lookup-alternatives,
+              along with snarfing text from the frontmost app.
