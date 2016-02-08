@@ -1,13 +1,18 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_sdk: macosx10.11
-
 before_script:
-    - ./bootstrap.sh
-
+- "./bootstrap.sh"
 branches:
-    only:
-        - master
-
+  only:
+  - master
 script:
-    - xcodebuild test -parallelizeTargets -scheme Quill
+- xcodebuild test -parallelizeTargets -scheme Quill
+deploy:
+  provider: releases
+  api_key:
+    secure: PXdiIaiNjxHO6xhZov4UaGzMCvigJqOifiNlQq7AiCcd1TJ7FCTX58PK2oHZKhsqwZu97wdQDDUBdTg9rjmzu0CnoVblA5wMYy2mhPmnmSUH+mUmBEHYHGD3p5snMFKcwATptIL+rGBwwA8dXvNK8z9HBfr6Zu6oRyTB5AaaP9FMs0G80wrac79sSdXjI7N1iQUvmJfs/be0IPfYXgPz+X90CsuyB36ExHRLDFPXnD7phcd7GnNJ9uPTYgF8x9WCzo23HvsxC3PSJ5tBjKd9bWnby6v+miVnOnFDDe8ARzGK47992dtGhEwE1vzJLCw8mNN1CG1benGcEJz1GoUII1RAIZGD9ayrH+a9UAy8Y5hbnI+AF0BH0cwS9CJME4YxKMNdHrJYCpADFg2A+foH5NywG7BIg8AHv6TLiRV2tc+wASFkQoWKj5Xbk2hWyFu+b/SVcuGa696EBgNQf9sD8+JqI3jXgMxR+ZVHP7M5VZgm9kVs1H6lCKSuBK4zxfjD+/NQo+wRJpp2esIaVS7Gq5HLJ/wS2XYsspqz7FT6+Bx2sz7WVN9NgJw2C37RumxucBNuBk6c75zeUX95bfVPywE1BVTXiqIMWRDaQzdQaDEIEGo5cVreQZolJsqqGsaKVNfeOpNS7nTLrIoLt7rYKRiIAcfwdJB1wDE5RFC6gZQ=
+  file: build/Quill.app.zip
+  on:
+    repo: jeremy-w/quill-steno-osx
+    tags: true

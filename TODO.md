@@ -9,7 +9,7 @@ Releases can be delivered automatically to GitHub.
 - [X] Ensure line coverage metrics are collected during testing
     - Coverage now defaults to being turned on. Nifty!
 - [X] Hook up TravisCI.org for continuous integration
-- [ ] Automate publishing a build to GitHub Releases
+- [X] Automate publishing a build to GitHub Releases
 - [ ] Publish an empty "Hello World" build
 - [ ] Document repository configuration and release process
 - [X] Question: Set up Developer ID signing sooner or later?
