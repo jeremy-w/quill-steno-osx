@@ -47,6 +47,8 @@ The status item indicates whether translation is on or off at a glance.
       Behavior: Show menu icon, and both able to be disabled
       thanks to a global keyboard shortcut.
     - We just want one or the other.
+- [ ] Add crash report & feedback collector
+    - Now that we now have a preferences window for users to opt-in.
 
 
 ## Growing the UI
