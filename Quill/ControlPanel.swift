@@ -3,7 +3,9 @@
 import Cocoa
 
 class ControlPanel: NSViewController {
-    var translationEngine: TranslationEngine! {
+    var translationEngine: TranslationEngine! = {
+        return PloverPythonTranslationEngine()
+    }() {
         didSet {
             translationEngine.translatingDidChange = { translating in
                 self.enableTranslationButton.state = (translating ? NSOnState : NSOffState)

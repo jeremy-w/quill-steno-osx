@@ -15,6 +15,15 @@ class ControlPanelTests: XCTestCase {
     }
 
 
+    func testHasADefaultTranslationEngine() {
+        let controlPanel: ControlPanel? = controller("ControlPanel")
+        XCTAssertNotNil(controlPanel, "failed to get controlPanel")
+        guard let panel = controlPanel else { return }
+
+        XCTAssertNotNil(panel.translationEngine)
+    }
+
+
     func testHasAnEnableTranslationButton() {
         havingLoadedItsViewAndConnectedOutlets()
         XCTAssertNotNil(controlPanel.enableTranslationButton, "outlet not connected")
