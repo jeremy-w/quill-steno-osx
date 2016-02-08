@@ -1,0 +1,5 @@
+disabled_rules:
+    # Docs assist well-chosen identifier names only as needed.
+    # They should not be required to redundantly address each parameter
+    # or return value.
+    - valid_docs
