@@ -13,6 +13,7 @@
 		3F93FD9A1C6300FB00119AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F93FD981C6300FB00119AA4 /* Main.storyboard */; };
 		3F93FDA51C6300FB00119AA4 /* ControlPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDA41C6300FB00119AA4 /* ControlPanelTests.swift */; };
 		3F93FDB01C6300FB00119AA4 /* QuillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */; };
+		3F93FDC11C69311000119AA4 /* TranslationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDC01C69311000119AA4 /* TranslationEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F93FDAB1C6300FB00119AA4 /* QuillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuillUITests.swift; sourceTree = "<group>"; };
 		3F93FDB11C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F93FDC01C69311000119AA4 /* TranslationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F93FD921C6300FB00119AA4 /* AppDelegate.swift */,
 				3F93FD941C6300FB00119AA4 /* ControlPanel.swift */,
+				3F93FDC01C69311000119AA4 /* TranslationEngine.swift */,
 				3F93FD961C6300FB00119AA4 /* Assets.xcassets */,
 				3F93FD981C6300FB00119AA4 /* Main.storyboard */,
 				3F93FD9B1C6300FB00119AA4 /* Info.plist */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F93FDC11C69311000119AA4 /* TranslationEngine.swift in Sources */,
 				3F93FD951C6300FB00119AA4 /* ControlPanel.swift in Sources */,
 				3F93FD931C6300FB00119AA4 /* AppDelegate.swift in Sources */,
 			);
