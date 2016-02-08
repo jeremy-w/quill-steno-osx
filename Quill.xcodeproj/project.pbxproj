@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3F93FD931C6300FB00119AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FD921C6300FB00119AA4 /* AppDelegate.swift */; };
-		3F93FD951C6300FB00119AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FD941C6300FB00119AA4 /* ViewController.swift */; };
+		3F93FD951C6300FB00119AA4 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FD941C6300FB00119AA4 /* ControlPanel.swift */; };
 		3F93FD971C6300FB00119AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F93FD961C6300FB00119AA4 /* Assets.xcassets */; };
 		3F93FD9A1C6300FB00119AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F93FD981C6300FB00119AA4 /* Main.storyboard */; };
-		3F93FDA51C6300FB00119AA4 /* QuillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDA41C6300FB00119AA4 /* QuillTests.swift */; };
+		3F93FDA51C6300FB00119AA4 /* ControlPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDA41C6300FB00119AA4 /* ControlPanelTests.swift */; };
 		3F93FDB01C6300FB00119AA4 /* QuillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,12 +35,12 @@
 /* Begin PBXFileReference section */
 		3F93FD8F1C6300FB00119AA4 /* Quill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F93FD921C6300FB00119AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F93FD941C6300FB00119AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F93FD941C6300FB00119AA4 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
 		3F93FD961C6300FB00119AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F93FD991C6300FB00119AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F93FD9B1C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F93FDA01C6300FB00119AA4 /* QuillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F93FDA41C6300FB00119AA4 /* QuillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuillTests.swift; sourceTree = "<group>"; };
+		3F93FDA41C6300FB00119AA4 /* ControlPanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelTests.swift; sourceTree = "<group>"; };
 		3F93FDA61C6300FB00119AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F93FDAB1C6300FB00119AA4 /* QuillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F93FDAF1C6300FB00119AA4 /* QuillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuillUITests.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3F93FD921C6300FB00119AA4 /* AppDelegate.swift */,
-				3F93FD941C6300FB00119AA4 /* ViewController.swift */,
+				3F93FD941C6300FB00119AA4 /* ControlPanel.swift */,
 				3F93FD961C6300FB00119AA4 /* Assets.xcassets */,
 				3F93FD981C6300FB00119AA4 /* Main.storyboard */,
 				3F93FD9B1C6300FB00119AA4 /* Info.plist */,
@@ -107,7 +107,7 @@
 		3F93FDA31C6300FB00119AA4 /* QuillTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F93FDA41C6300FB00119AA4 /* QuillTests.swift */,
+				3F93FDA41C6300FB00119AA4 /* ControlPanelTests.swift */,
 				3F93FDA61C6300FB00119AA4 /* Info.plist */,
 			);
 			path = QuillTests;
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F93FD951C6300FB00119AA4 /* ViewController.swift in Sources */,
+				3F93FD951C6300FB00119AA4 /* ControlPanel.swift in Sources */,
 				3F93FD931C6300FB00119AA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F93FDA51C6300FB00119AA4 /* QuillTests.swift in Sources */,
+				3F93FDA51C6300FB00119AA4 /* ControlPanelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,5 +2,5 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ControlPanel: NSViewController {
 }

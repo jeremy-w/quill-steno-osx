@@ -3,5 +3,5 @@
 import XCTest
 @testable import Quill
 
-class QuillTests: XCTestCase {
+class ControlPanelTests: XCTestCase {
 }
