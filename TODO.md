@@ -10,8 +10,9 @@ Releases can be delivered automatically to GitHub.
     - Coverage now defaults to being turned on. Nifty!
 - [X] Hook up TravisCI.org for continuous integration
 - [X] Automate publishing a build to GitHub Releases
-- [ ] Publish an empty "Hello World" build
-- [ ] Document repository configuration and release process
+- ~~Publish an empty "Hello World" build~~
+    - I don't want a dead tag in my project history forever.
+- [X] Document repository configuration and release process
 - [X] Question: Set up Developer ID signing sooner or later?
     - We can punt on it, so I reckon we should.
 - [X] Similar question: Set up Sparkle now or later?
