@@ -6,10 +6,12 @@ import Cocoa
 
 class ControlPanelTests: XCTestCase {
     var controlPanel: ControlPanel!
+    let engine = SpyingTranslationEngine()
 
 
     override func setUp() {
         controlPanel = controller("ControlPanel")
+        controlPanel.configure(engine)
     }
 
 
@@ -17,7 +19,22 @@ class ControlPanelTests: XCTestCase {
         havingLoadedItsViewAndConnectedOutlets()
         XCTAssertNotNil(controlPanel.enableTranslationButton, "outlet not connected")
     }
+
+
+    func testTurningButtonOnEnablesEngineTranslation() {
+        havingLoadedItsViewAndConnectedOutlets()
+        controlPanel.enableTranslationButton.performClick(nil)
+        XCTAssertTrue(engine.translating, "check action connection")
+    }
+
+
+    func testEnablingTranslationNotViaButtonStillUpdatesButtonState() {
+        havingLoadedItsViewAndConnectedOutlets()
+        engine.translating = true
+        XCTAssertEqual(controlPanel.enableTranslationButton.state, NSOnState)
+    }
 }
+
 
 
 // MARK: - Helpers
@@ -26,6 +43,20 @@ extension ControlPanelTests {
         let _ = controlPanel.view  // side effect: loads the view and connects outlets
     }
 }
+
+
+
+class SpyingTranslationEngine: TranslationEngine {
+    var translating = false {
+        didSet {
+            translatingDidChange(translating)
+        }
+    }
+
+
+    var translatingDidChange = { (translating: Bool) -> Void in /* pass */ }
+}
+
 
 
 func controller<ControllerType>(

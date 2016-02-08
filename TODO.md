@@ -25,15 +25,16 @@ Plover translation can be turned on and off through a big ugly button.
 The stock Plover code is used for this purpose, though possibly
 pinned at a known-working older version of the code for now.
 
-- [ ] Work out the best way to hook in Plover Core
+- [X] Add an On/Off button to the stock window
+- [X] Wire it up to turn Plover mode on/off
+- [ ] Hook on/off into Plover Core to actually enable/disable Plover
+  translation
     - Pinning at a specific version is probably ideal.
         - Being able to retarget it to somewhere on disk for easy development
           of Plover Core would be swell, though.
     - It would be preferable NOT to have to mess with git submodules
       or subtree merges.
     - This will also include working out Python embedding.
-- [X] Add an On/Off button to the stock window
-- [ ] Wire it up to turn Plover mode on/off
 - [ ] Verify it works to type using the configuration already set up by the
   standard Plover.app
 
