@@ -3,4 +3,5 @@
 import Cocoa
 
 class ControlPanel: NSViewController {
+    @IBOutlet var enableTranslationButton: NSButton!
 }

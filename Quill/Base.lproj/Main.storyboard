@@ -667,11 +667,29 @@
         <!--Control Panel-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ControlPanel" customModule="Quill" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ControlPanel" id="XfG-lQ-9wD" customClass="ControlPanel" customModule="Quill" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="w3m-Xd-6Jp">
+                                <rect key="frame" x="14" y="222" width="153" height="32"/>
+                                <buttonCell key="cell" type="push" title="Enable Translation" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zlu-xX-Dgj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="w3m-Xd-6Jp" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="McM-Po-SE7"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="w3m-Xd-6Jp" secondAttribute="bottom" constant="20" symbolic="YES" id="RQu-fh-oDs"/>
+                            <constraint firstItem="w3m-Xd-6Jp" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="cqR-vA-ked"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w3m-Xd-6Jp" secondAttribute="trailing" constant="20" symbolic="YES" id="yj7-Nk-P0f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="enableTranslationButton" destination="w3m-Xd-6Jp" id="RQ5-pU-HeZ"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

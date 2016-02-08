@@ -32,7 +32,7 @@ pinned at a known-working older version of the code for now.
     - It would be preferable NOT to have to mess with git submodules
       or subtree merges.
     - This will also include working out Python embedding.
-- [ ] Add an On/Off button to the stock window
+- [X] Add an On/Off button to the stock window
 - [ ] Wire it up to turn Plover mode on/off
 - [ ] Verify it works to type using the configuration already set up by the
   standard Plover.app
