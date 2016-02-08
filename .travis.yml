@@ -7,7 +7,7 @@ branches:
   only:
     - master
 script:
-- xcodebuild test -parallelizeTargets -scheme Quill
+  - ./travis.sh
 deploy:
   provider: releases
   api_key:
