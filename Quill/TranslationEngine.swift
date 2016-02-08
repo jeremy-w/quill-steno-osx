@@ -6,3 +6,7 @@ protocol TranslationEngine {
     /// - param: translating: The new value of `translating`.
     var translatingDidChange: (Bool) -> Void {get set}
 }
+
+
+
+func translatingDidChangeNOP(_: Bool) { /* pass */ }

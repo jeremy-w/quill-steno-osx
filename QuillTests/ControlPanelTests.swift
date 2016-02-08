@@ -54,7 +54,7 @@ class SpyingTranslationEngine: TranslationEngine {
     }
 
 
-    var translatingDidChange = { (translating: Bool) -> Void in /* pass */ }
+    var translatingDidChange = translatingDidChangeNOP
 }
 
 
